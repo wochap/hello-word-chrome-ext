@@ -24,9 +24,10 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.google.com/*"
+        "https://*/*"
       ],
       "js": [
+        "js/jquery/jquery.js",
         "src/inject/inject.js"
       ]
     }
