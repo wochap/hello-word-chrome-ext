@@ -1,5 +1,5 @@
 {
-  "name": "gm_hello_world",
+  "name": "GM Hello World",
   "version": "0.0.1",
   "manifest_version": 2,
   "description": "This extension was created with the awesome extensionizr.com",
@@ -10,12 +10,6 @@
     "128": "icons/icon128.png"
   },
   "default_locale": "en",
-  "background": {
-    "scripts": [
-      "src/bg/background.js"
-    ],
-    "persistent": true
-  },
   "permissions": [
     "https://*/*",
     "https://sleepy-bhaskara-dd4a2f.netlify.com/*",
