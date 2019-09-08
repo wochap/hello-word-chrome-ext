@@ -11,14 +11,12 @@
   },
   "default_locale": "en",
   "permissions": [
-    "https://*/*",
-    "https://sleepy-bhaskara-dd4a2f.netlify.com/*",
-    "https://sleepy-bhaskara-dd4a2f.netlify.com/.netlify/functions/hello-world"
+    "https://sleepy-bhaskara-dd4a2f.netlify.com/*"
   ],
   "content_scripts": [
     {
       "matches": [
-        "https://*/*"
+        "https://sierdgtt.mtc.gob.pe/*"
       ],
       "js": [
         "js/jquery/jquery.js",
